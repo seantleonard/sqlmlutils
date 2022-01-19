@@ -48,3 +48,8 @@ jobs:
         with:
           r-version: ${{ matrix.r-version }}
           extra-repositories: 'https://mran.microsoft.com/snapshot/2019-02-01'
+
+      - name: Install R Package Dependencies
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          cache-version: 2
