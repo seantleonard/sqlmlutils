@@ -54,3 +54,5 @@ jobs:
         with:
           cache-version: 1
           working-directory: ./R
+          extra-packages: rcmdcheck
+      - uses: r-lib/actions/check-r-package@v2
