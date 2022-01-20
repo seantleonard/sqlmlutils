@@ -56,7 +56,7 @@ jobs:
           working-directory: ./R
           extra-packages: |
             rcmdcheck
-            any::ODBC
+            any::odbc
           
       - uses: r-lib/actions/check-r-package@v2
         with:
