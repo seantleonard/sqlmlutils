@@ -55,7 +55,7 @@ jobs:
           cache-version: 2
           working-directory: ./R
           extra-packages:
-            any::odbc
+            cran::odbc
             rcmdcheck
           
       - uses: r-lib/actions/check-r-package@v2
